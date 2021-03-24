@@ -19,7 +19,7 @@
 <body>
     <div class="container">
         <h1>Apointments</h1>
-        <form id="patient-form">
+        <form id="patient-form" action="booking-successful.html">
             <div class="name-entry">
                 <label for="name">Enter your name:</label>
                 <input type="text" name="name" id="name">
@@ -38,8 +38,9 @@
             </div>
             <div class="description">
                 <label for="note">Enter anymore information we need to know:</label>
-                <input type="text" name="note" id="note">
+                <input type="text" name="note" id="note" style="display:block">
             </div>
+            <button class="btn btn-warning" onclick="document.location='booking-successful.html'">Submit</button>
         </form>
     </div>
 </body>

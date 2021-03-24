@@ -13,11 +13,35 @@
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <title>Apointments</title>
 </head>
 
 <body>
-
+    <div class="container">
+        <h1>Apointments</h1>
+        <form id="patient-form">
+            <div class="name-entry">
+                <label for="name">Enter your name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="date-entry">
+                <label for="date">Enter today's date:</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="start-time">
+                <label for="start">Enter the start time:</label>
+                <input type="time" name="start" id="start">
+            </div>
+            <div class="end-time">
+                <label for="end">Enter the end time:</label>
+                <input type="time" name="end" id="end">
+            </div>
+            <div class="description">
+                <label for="note">Enter anymore information we need to know:</label>
+                <input type="text" name="note" id="note">
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
